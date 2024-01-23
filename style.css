@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url(Sora-Light.ttf);
+}
+body{
+    font-size: 14px;
+    font-family: 'myFirstFont';
+    background-color: #6C727F;
+}
+#main{
+    background-color: FAFAF9;
+    width: 75%;
+    margin: auto;
+    padding: 40px;
+}
+.card{
+    position: relative;
+    margin:auto;
+    min-width: 150px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);    padding: 20px;
+}
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+.btn{
+    display: block;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: none;
+    padding: 5px 20px;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    font-weight: bold;
+}
+#title{
+    font-size:18px;
+    font-family: myFirstFont;
+    font-weight:bolder;
+}
+p{
+    font-size: 14px;
+    font-family: myFirstFont;
+}
+.line{
+    border-bottom:1px solid #E5EAF0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+}
+.desc{
+    margin-right: -10px;
+}
+#card-author{
+    font-size: 10px;
+    font-family: myFirstFont;
+    margin-top: 30px;
+/* float: right; */
+}
